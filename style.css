@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 6rem;
+}
+
+#menubtn{
+    background: #AE198B;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 1.5rem;
+    font-size: large;
+    max-width: 100%;
+}
+
+#dropdownmenu{
+    background-color: #AE198B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}   
+
+li{
+    padding: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.invisible{
+    visibility: hidden;
+}
