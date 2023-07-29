@@ -1,6 +1,7 @@
 const buttons = document.querySelectorAll("button")
 const images = document.getElementsByTagName("li")
 
+const next = document.getElementById("next")
 
 function changeSlider(btn){
     if (btn.id === "next"){
@@ -43,5 +44,6 @@ function changeSlider(btn){
 
 buttons.forEach(btn => btn.addEventListener("click", e => changeSlider(btn)))
 
+setInterval(()=>changeSlider(next), 5000)
 
 
