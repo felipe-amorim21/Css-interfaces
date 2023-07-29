@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 333px;
+    width: 500px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery, ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.active {
+    visibility: visible;
+}
+
+.no-active{
+    visibility: hidden;
+}
+
+
+.carossel-button{
+    font-size: large;
+    color: white;
+    background-color: black;
+    border: 0px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+
+.slider > button{
+}
+
+#previous {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    z-index: 2;
+}
+
+#next{
+    position: absolute;
+    top: 35%;
+    right: 33%;
+    z-index: 2;
+}
